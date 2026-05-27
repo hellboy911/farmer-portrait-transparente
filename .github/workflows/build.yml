@@ -10,9 +10,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Decompress Project
-      run: unzip FarmerPortraits.zip -d .
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
@@ -24,5 +21,6 @@ jobs:
     - name: Upload DLL
       uses: actions/upload-artifact@v4
       with:
-        name: Mod-Compilado
+        name: FarmerPortraits-DLL
         path: '**/bin/Release/**/*.dll'
+        
