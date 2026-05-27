@@ -7,12 +7,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <ModBuildAlwaysIgnoreSharedGamePath>true</ModBuildAlwaysIgnoreSharedGamePath>
-    <GamePath>C:\DummyPath</GamePath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.2.0" />
+    <PackageReference Include="SMAPI.Mod" Version="4.1.0" />
   </ItemGroup>
 
 </Project>
