@@ -8,6 +8,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <ModBuildAlwaysIgnoreSharedGamePath>true</ModBuildAlwaysIgnoreSharedGamePath>
+    <GamePath>C:\DummyPath</GamePath>
   </PropertyGroup>
 
   <ItemGroup>
