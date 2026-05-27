@@ -4,14 +4,14 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
     - name: Decompress Project
-      run: Expand-Archive -Path FarmerPortraits.zip -DestinationPath .
+      run: unzip FarmerPortraits.zip -d .
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
