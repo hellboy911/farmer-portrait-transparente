@@ -7,10 +7,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
+    <ModBuildAlwaysIgnoreSharedGamePath>true</ModBuildAlwaysIgnoreSharedGamePath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SMAPI.Mod" Version="4.1.0" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.2.0" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <RestoreAdditionalProjectSources>https://api.nuget.org/v3/index.json</RestoreAdditionalProjectSources>
+  </PropertyGroup>
 
 </Project>
